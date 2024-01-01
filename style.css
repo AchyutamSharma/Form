@@ -1,0 +1,103 @@
+:root{
+    --bg-drk : #352F44;
+    --light-drk : #5C5470;
+    --gray : #B9B4C7;
+    --txt-color : #FAF0E6;
+}
+body{
+    background-color: var(--bg-drk);
+    color: var(--txt-color);
+    margin: 0;
+    padding: 0;
+}
+
+.top1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.fstxt{
+    display: flex;
+    justify-content: center;
+}
+#forms{
+    /*
+    background-color: var(--light-drk);
+    border: 1px solid var(--light-drk);
+    border-radius: 10px;
+    */
+    height: 100vh;
+    margin-left: 10px;
+}
+.txt-lable{
+    
+    font-size: 24px;
+    font-weight: 700;
+}
+.input-txt{
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+    width: 190px;
+    font-size: 18px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Email-input{
+    width: 20vw;
+}
+.status{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 30px 0 5px;
+}
+
+.radio-container{
+    display: flex;
+    margin-top: 20px;
+}
+.input-radio{
+   height: 15px;
+   width: 15px;
+   cursor: pointer;
+}
+.applyFor{
+    margin-top: 10px;
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid var(--light-drk);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.resume{
+    width: 190px;
+    height: 24px;
+    font-size: 16px;
+    background-color: var(--light-drk);
+}
+.btn{
+    background-color: var(--light-drk);
+    color: var(--txt-color);
+    height: 35px;
+    width: 80px;
+    margin: 50px 10px 0 0;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid var(--light-drk);
+    border-radius: 5px;
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+}
+.resume-link{
+    width: 290px;
+    padding: 5px;
+}
+.bck-btn{
+    text-align: center;
+}
+

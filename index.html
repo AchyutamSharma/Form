@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Hai Bhai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <h1 class="top1">Job Application Form</h1>
+
+    <h2 class="fstxt">Bhai Agar job chahiye toh fill kar de...</h2>
+  
+    <form action="page2.html" id="forms">
+        <!--<fieldset>
+            <legend class="legends">Bhar le bhai issko</legend>
+        -->
+            <label class="txt-lable FstName-lb">First Name :</label>
+            <input type="text" class="input-txt FstName-input">
+            
+            <label class="txt-lable LstName-lb" >Last Name :</label>
+            <input type="text" class="input-txt LstName-input">
+            <br>
+            
+            <label class="txt-lable Email-lb" >Email : </label>
+            <input type="email" class="input-txt Email-input">
+            <br>
+            
+            <label class="txt-lable Dob-lb" >D.O.B : </label>
+            <input type="date" class="input-txt Dob-input">
+            <br>
+            
+            <label class="txt-lable state" >Your State : </label>
+            <select id=""></select>
+            
+            <!-- Radio button -->
+            <label class="txt-lable status-main" >What is your current Employee status?</label>
+            <br>
+            <div class="radio-container">
+                <input type="radio" class="input-radio status-input" name="employee">
+                <label class="radio-lb status"> Berojgar</label>
+
+                <input type="radio" class="input-radio status-input" name="employee">
+                <label class="radio-lb status">Student</label>
+                
+                <input type="radio" class="input-radio status-input" name="employee">
+                <label class="radio-lb status">Employed</label>
+                
+                <input type="radio" class="input-radio status-input" name="employee">
+                <label class="radio-lb status">Self-Employee</label>
+            </div>  
+            <br>
+            
+            <label class="txt-lable position" >What position are you applying for?</label>
+            <br>
+            <select class="applyFor">
+                <option value="" class="opt">Front-End Developer</option>
+                <option value="" class="opt">Back-End Developer</option>
+                <option value="" class="opt">DevOps Developer</option>
+                <option value="" class="opt">Cyber Security</option>
+                <option value="" class="opt">Data Analyst</option>
+                <option value="" class="opt">UI/UX</option>
+            </select>
+            <br>
+            
+            <label class="txt-lable resume-upl" >Upload your resume</label>
+            <input type="file" class="input-txt resume" >
+            <br>
+            
+            <label class="txt-lable resume-link">Please provide your Resume link</label>
+            <input type="url" class="input-txt resume-link" placeholder="https://example.com/File_Name" >
+            <br>
+            <button type="submit" class="btn">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+        <!--</fieldset>-->
+    </form>
+
+
+    
+    <script>
+        alert("Tere pe koi skill hai tab fill karna.");
+    </script>
+</body>
+</html>
